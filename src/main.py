@@ -7,7 +7,7 @@ from sorting_engine import SortingEngine
 if __name__ == "__main__":
     products = get_sample_products()
 
-    sort_key = "rating"  # change to rating or date_added
+    sort_key = "date_added"  # change to rating or date_added
 
     analyzer = DataAnalyzer()
     decision_engine = DecisionEngine()
